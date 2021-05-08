@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>HW4 500NodeOrders</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/MyScript.js"></script>
+</head>
+<body>
+    <h2>Which stores are selling CDs for better markups? (price more than $13)</h2>
+    <h3>Here are the total number of sales per store of CD's sold at more than $13</h3>
+    <input type="button" value="GetMarkups" onclick="getMarkUps();" />
+    <ul id="listUl"></ul>
+
+    <h2>I want to check on the performance of an employee.</h2>
+    <h3>Pick an employee</h3>
+    <select name="employee" id="employee">
+    </select>
+    <input type="button" value="GetEmployee" onclick="getEmployee();" />
+    <p id="employeeSales"></p>
+
+    <h2>I want to see the performance of my stores.</h2>
+    <h3>Pick a store</h3>
+    <select name="city" id="city">
+    </select>
+    <input type="button" value="GetCity" onclick="getStore();" />
+    <p id="storeSales"></p>
+</body>
+</html>
